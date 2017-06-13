@@ -1,0 +1,32 @@
+body {
+
+	font-family: sans-serif;
+	text-align:center;
+	background:url(./pexels-photo.jpg) no-repeat center center fixed;
+	background-size:cover;
+	color:white;
+}
+.wrapper{
+	display:flex;
+	margin:1% 5% 1% 5%;
+}
+.left{
+	flex:1;
+}
+.right{
+	flex:1;
+}
+
+@media screen and (max-width:700px){
+	.wrapper{
+		flex-flow:column wrap;
+	}
+}
+
+textarea{
+	height:500px;
+	width:400px;
+}
+.preview{
+	text-align:left;
+}
